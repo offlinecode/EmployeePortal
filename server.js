@@ -12,7 +12,7 @@ function start(route, handle){
 		 console.log('Path name is '+ pathname);
 		 route(handle, pathname, req, res);
 		 
-	}).listen(1337);
+	}).listen(8081);
 	console.log('Server running at http://127.0.0.1:1337/');
 }
 
